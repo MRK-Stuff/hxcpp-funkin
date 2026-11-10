@@ -396,7 +396,6 @@ String __hxcpp_get_bin_dir()
     HX_CSTRING("WinRT");
   #endif
 #elif defined(_WIN32)
-  #elif defined(_WIN32)
   #ifdef HXCPP_ARM64
     HX_CSTRING("WindowsArm64");
   #elif defined(HXCPP_M64)
