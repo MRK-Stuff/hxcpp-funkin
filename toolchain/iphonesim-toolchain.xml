@@ -42,6 +42,7 @@
   <flag value="i386" unless="HXCPP_M64 || HXCPP_ARM64"/>
   <flag value="x86_64" if="HXCPP_M64" unless="HXCPP_ARM64" />
   <flag value="arm64" if="HXCPP_ARM64" />
+  <flag value="-target" if="HXCPP_M64 || HXCPP_ARM64"/>
   <flag value="x86_64-apple-ios-simulator" if="HXCPP_M64" unless="HXCPP_ARM64" />
   <flag value="arm64-apple-ios-simulator" if="HXCPP_ARM64" />
   <flag value="-isysroot"/>
@@ -83,6 +84,7 @@
   <flag value="i386" unless="HXCPP_M64 || HXCPP_ARM64"/>
   <flag value="x86_64" if="HXCPP_M64" unless="HXCPP_ARM64" />
   <flag value="arm64" if="HXCPP_ARM64" />
+  <flag value="-target" if="HXCPP_M64 || HXCPP_ARM64"/>
   <flag value="x86_64-apple-ios-simulator" if="HXCPP_M64" unless="HXCPP_ARM64" />
   <flag value="arm64-apple-ios-simulator" if="HXCPP_ARM64" />
   <flag value="-isysroot"/>
